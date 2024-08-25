@@ -11,7 +11,7 @@ class HomeController < ApplicationController
     if @user.present? && @user.authenticate(params[:password])
       # user[:user_id] = user.id
       @user
-      redirect_to root_path, notice: "Successfully logged in"
+      redirect_to products_path, notice: "Successfully logged in"
     else
       flash[:alert] = 'Invalid email or password'
       render :new

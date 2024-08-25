@@ -44,7 +44,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 gem 'bootstrap-sass'
-
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
 # gem "bootstrap" , "~> 4.1.3"
 # gem "sassc-rails"
 # gem 'autoprefixer-rails', '~> 7.1.6'
